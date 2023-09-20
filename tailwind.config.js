@@ -16,6 +16,9 @@ export default {
       spanishSkyBlue: "#23A6F0",
       mediumGray: "#BDBDBD",
       viridian: "#23856D",
+      backGround: "#a5ebe1",
+      cartBackground: "rgba(45, 139, 192, 0.75)",
+      yellow: "rgb(253 224 71)"
     },
     extend: {},
   },

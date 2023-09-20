@@ -18,21 +18,44 @@ body {
   font-family: "Montserrat";
   width: 100%;
 }
-
 @layer components {
   .body {
-    @apply max-w-[25.8rem] my-0 mx-auto bg-steelBlue;
+    @apply max-w-[25.8rem] my-0 mx-auto;
   }
-
   .display-flex-row {
     @apply flex justify-center items-center flex-wrap;
   }
-
   .display-flex-column {
     @apply flex flex-col justify-start items-center;
   }
-
-  .h3{
-    
+  .h2 {
+    @apply text-[2.5rem] font-bold leading-[3.12rem] tracking-[0.2px];
+  }
+  .h3 {
+    @apply text-[1.5rem] font-bold leading-[2rem] tracking-[0.1px];
+  }
+  .h4 {
+    @apply text-[1.25rem] font-normal leading-[1.87rem] tracking-[0.2px];
+  }
+  .h5 {
+    @apply text-base font-bold leading-[1.5rem] tracking-[0.1px];
+  }
+  .p {
+    @apply text-sm font-normal leading-[1.25rem] tracking-[0.2px];
+  }
+  .btn {
+    @apply flex flex-col items-center gap-[0.6rem] py-[0.9rem] px-[2.5rem] rounded-[5px] cursor-pointer;
+  }
+  .btn-text {
+    @apply text-[0.8rem] font-bold leading-[1.37rem] tracking-[0.2px];
+  }
+  .img {
+    @apply block object-cover flex-shrink-0;
+  }
+  .cart-content {
+    @apply inline-flex pt-[3.75rem] pr-[6.65rem] pb-[2.25rem] pl-[2.56rem] flex-col justify-end items-start gap-[1.62rem] bg-cartBackground absolute z-10 bottom-0;
+  }
+  .btn-border {
+    @apply border-[1px] border-solid border-white;
   }
 }
