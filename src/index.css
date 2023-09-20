@@ -2,8 +2,37 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat"),
+    url("./fonts/Montserrat-Medium.ttf") format(truetype);
+}
+
+body {
+  font-family: "Montserrat";
+  width: 100%;
+}
+
+@layer components {
+  .body {
+    @apply max-w-[25.8rem] my-0 mx-auto bg-steelBlue;
+  }
+
+  .display-flex-row {
+    @apply flex justify-center items-center flex-wrap;
+  }
+
+  .display-flex-column {
+    @apply flex flex-col justify-start items-center;
+  }
+
+  .h3{
+    
+  }
 }
