@@ -18,9 +18,13 @@ body {
   font-family: "Montserrat";
   width: 100%;
 }
+a,
+button {
+  cursor: pointer;
+}
 @layer components {
   .body {
-    @apply max-w-[25.8rem] my-0 mx-auto;
+    @apply w-full my-0 mx-auto;
   }
   .display-flex-row {
     @apply flex justify-center items-center flex-wrap;
@@ -28,23 +32,35 @@ body {
   .display-flex-column {
     @apply flex flex-col justify-start items-center;
   }
+  .ul-display {
+    @apply display-flex-column gap-8 text-[1.87rem] font-normal leading-[2.8rem] tracking-[0.2px] text-nickel;
+  }
   .h2 {
-    @apply text-[2.5rem] font-bold leading-[3.12rem] tracking-[0.2px];
+    @apply text-[2.5rem] font-bold leading-[3.12rem] tracking-[0.2px] text-peacoat;
   }
   .h3 {
-    @apply text-[1.5rem] font-bold leading-[2rem] tracking-[0.1px];
+    @apply text-[1.5rem] font-bold leading-[2rem] tracking-[0.1px] text-peacoat;
   }
   .h4 {
-    @apply text-[1.25rem] font-normal leading-[1.87rem] tracking-[0.2px];
+    @apply text-[1.25rem] font-normal leading-[1.87rem] tracking-[0.2px] text-nickel;
   }
   .h5 {
-    @apply text-base font-bold leading-[1.5rem] tracking-[0.1px];
+    @apply text-base font-bold leading-[1.5rem] tracking-[0.1px] text-steelBlue;
+  }
+  .h6 {
+    @apply text-sm font-bold leading-[1.5rem] tracking-[0.2px] text-steelBlue;
+  }
+  .a {
+    @apply text-sm font-bold leading-[1.5rem] tracking-[0.2px] text-nickel;
   }
   .p {
-    @apply text-sm font-normal leading-[1.25rem] tracking-[0.2px];
+    @apply text-sm font-normal leading-[1.25rem] tracking-[0.2px] text-nickel;
+  }
+  .small {
+    @apply text-xs font-normal leading-4 tracking-[0.2px] text-nickel;
   }
   .btn {
-    @apply flex flex-col items-center gap-[0.6rem] py-[0.9rem] px-[2.5rem] rounded-[5px] cursor-pointer;
+    @apply flex flex-col items-center gap-2.5 py-[0.9rem] px-[2.5rem] rounded-[5px];
   }
   .btn-text {
     @apply text-[0.8rem] font-bold leading-[1.37rem] tracking-[0.2px];
@@ -57,5 +73,35 @@ body {
   }
   .btn-border {
     @apply border-[1px] border-solid border-white;
+  }
+  .mobile-container {
+    @apply display-flex-column gap-[5rem] py-[5rem];
+  }
+  .service-card {
+    @apply display-flex-column gap-[1.25rem] py-[2.18rem] px-[2.5rem];
+  }
+  .selers-item-info {
+    @apply gap-2.5 p-[1.5rem] pb-[2.1rem];
+  }
+  .feature-posts-frame {
+    @apply display-flex-column pt-6 pr-6 pl-6 pb-9 gap-2.5 self-stretch;
+  }
+  .feature-posts-frame-small {
+    @apply display-flex-row gap-1;
+  }
+  .footer-ul {
+    @apply display-flex-column items-start gap-3;
+  }
+  .footer-h5 {
+    @apply h5 text-peacoat mb-2;
+  }
+  .footer-btn {
+    @apply btn btn-text py-5 px-4 rounded-tr-md rounded-br-md bg-steelBlue text-white border-[1px] border-solid border-borderColor;
+  }
+  .footer-input {
+    @apply px-3 py-5 rounded-[5px] border-[1px] border-solid border-borderColor;
+  }
+  .animation {
+    @apply transition-all ease-linear delay-300;
   }
 }

@@ -1,14 +1,14 @@
+import { brands } from "../../../data/brands";
 export default function Brands() {
   return (
     <>
-      <section className="display-flex-column gap-[3.75rem] my-[3.31rem]">
-        <img src="./svg/brands/hooli.svg" alt="hooli" />
-        <img src="./svg/brands/lyft.svg" alt="lyft" />
-        <img src="./svg/brands/piedPiperHat.svg" alt="piedPiperHat" />
-        <img src="./svg/brands/stripe.svg" alt="stripe" />
-        <img src="./svg/brands/aws.svg" alt="aws" />
-        <img src="./svg/brands/redditAlien.svg" alt="redditAlien" />
-      </section>
+      <div className="mobile-container py-[6.87rem]">
+        <section className="display-flex-column gap-[3.75rem] py-[3.12rem]">
+          {brands.map((item) => (
+            <img src={item.url} alt={item.title} />
+          ))}
+        </section>
+      </div>
     </>
   );
 }
