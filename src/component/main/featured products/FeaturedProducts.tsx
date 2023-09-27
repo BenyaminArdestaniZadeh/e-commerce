@@ -1,8 +1,8 @@
 export default function FeaturedProducts() {
   return (
     <>
-      <div className="mobile-container gap-[3.12rem] px-[1.28rem]">
-        <div className="title display-flex-column w-[17.5rem] gap-4 items-start">
+      <div className="mobile-container gap-[3.12rem] px-[1.28rem] md:px-10 md:flex-row-reverse md:justify-center md:items-center">
+        <div className="title display-flex-column w-[17.5rem] gap-4 items-start md:w-1/2">
           <h5 className="h5">Featured Products</h5>
           <h2 className="h2">We love what we do</h2>
           <p className="p">
@@ -18,9 +18,9 @@ export default function FeaturedProducts() {
           </p>
         </div>
 
-        <div className="img-container display-flex-row justify-start gap-[7px] mb-[5rem]">
-          <img src="./img/feature/feature-1.png" alt="feature-1" className="img w-[7.4rem]"/>
-          <img src="./img/feature/feature-2.png" alt="feature-2" className="img w-[9.52rem]"/>
+        <div className="img-container display-flex-row justify-start gap-[7px] mb-[5rem] md:w-1/2 md:mb-0">
+          <img src="./img/feature/feature-1.png" alt="feature-1" className="img w-[47%] "/>
+          <img src="./img/feature/feature-2.png" alt="feature-2" className="img w-[50%] "/>
         </div>
       </div>
     </>

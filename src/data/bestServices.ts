@@ -6,15 +6,15 @@ export const bestServices = [
     text: "Get your best looking smile now!",
   },
   {
-    url: "./svg/service/bookReader.svg",
+    url: "./svg/service/carbonBook.svg",
     title: "bookReader icon",
-    topic: "Easy Wins",
-    text: "Get your best looking smile now!",
+    topic: "Concrete",
+    text: "Defalcate is most focused in helping you discover your most beautiful smile",
   },
   {
-    url: "./svg/service/bookReader.svg",
+    url: "./svg/service/arrowGrowth.svg",
     title: "bookReader icon",
-    topic: "Easy Wins",
-    text: "Get your best looking smile now!",
+    topic: "Hack Growth",
+    text: "Overcame any hurdle or any other problem.",
   },
 ];

@@ -78,7 +78,7 @@ button {
     @apply display-flex-column gap-[5rem] py-[5rem];
   }
   .service-card {
-    @apply display-flex-column gap-[1.25rem] py-[2.18rem] px-[2.5rem];
+    @apply display-flex-column gap-[1.25rem] py-[2.18rem] px-[1rem];
   }
   .selers-item-info {
     @apply gap-2.5 p-[1.5rem] pb-[2.1rem];
@@ -90,16 +90,16 @@ button {
     @apply display-flex-row gap-1;
   }
   .footer-ul {
-    @apply display-flex-column items-start gap-3;
+    @apply display-flex-column items-start gap-3 ;
   }
   .footer-h5 {
     @apply h5 text-peacoat mb-2;
   }
   .footer-btn {
-    @apply btn btn-text py-5 px-4 rounded-tr-md rounded-br-md bg-steelBlue text-white border-[1px] border-solid border-borderColor;
+    @apply btn btn-text py-5 px-3 rounded-tr-md rounded-br-md bg-steelBlue text-white border-[1px] border-solid border-borderColor;
   }
   .footer-input {
-    @apply px-3 py-5 rounded-[5px] border-[1px] border-solid border-borderColor;
+    @apply px-3 py-5 rounded-[5px] border-[1px] border-solid border-borderColor md:px-1;
   }
   .span-subHeader {
     @apply display-flex-row gap-2;

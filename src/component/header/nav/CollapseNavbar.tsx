@@ -13,7 +13,7 @@ export default function CollapseNavbar() {
     <>
       <nav className="w-full display-flex-row justify-center gap-3 mb-4 px-3 md:justify-between">
         <div className="logo sm:w-1/2 md:w-auto">
-          <div className="navbar-brand py-[13px] pr-[79px] ">
+          <div className="navbar-brand py-[13px] pr-[79px] md:p-0">
             <h3 className="h3 xl:w-auto">Bandage</h3>
           </div>
         </div>
@@ -28,10 +28,9 @@ export default function CollapseNavbar() {
             <img src="./svg/icons/MenuIcon.svg" alt="MenuIcon" />
           </button>
         </div>
-        <div className="hidden md:display-flex-row md:justify-between md:w-[80%]">
+        <div className="md:display-flex-row md:justify-between md:max-w-[85%] lg:w-[80%]">
           <NavbarMobile toggle={toggle} />
           <NavbarDesktop />
-
           <Register />
         </div>
       </nav>

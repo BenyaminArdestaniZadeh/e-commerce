@@ -5,7 +5,7 @@ export default function Cart() {
   return (
     <>
     {}
-      <div className="cart-container display-flex-column mx-auto md:justify-center  gap-4 md:flex-row md:flex-wrap">
+      <div className="cart-container display-flex-column mx-auto gap-4 md:flex-row md:justify-center md:flex-wrap xl:px-[87px]">
         {cart.map((item, index) => (
           <div className="relative" key={index}>
             <img src={item.url} alt={item.title} />

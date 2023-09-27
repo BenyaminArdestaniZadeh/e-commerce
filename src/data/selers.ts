@@ -39,4 +39,12 @@ export const selers = [
     discount: "$16.48",
     price: "$16.48",
   },
+  {
+    title: "cover-1",
+    url: "./img/selers/product-cover-1.png",
+    category: "Graphic Design",
+    name: "English Department",
+    discount: "$16.48",
+    price: "$16.48",
+  },
 ];
