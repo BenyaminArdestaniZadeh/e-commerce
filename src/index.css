@@ -33,43 +33,43 @@ button {
     @apply flex flex-col justify-start items-center;
   }
   .ul-display {
-    @apply display-flex-column gap-8 text-[1.87rem] font-normal leading-[2.8rem] tracking-[0.2px] text-nickel;
+    @apply display-flex-column gap-8 text-3xl font-normal leading-[2.8rem] tracking-[0.2px] text-nickel;
   }
   .h2 {
     @apply text-[2.5rem] font-bold leading-[3.12rem] tracking-[0.2px] text-peacoat;
   }
   .h3 {
-    @apply text-[1.5rem] font-bold leading-[2rem] tracking-[0.1px] text-peacoat;
+    @apply text-2xl font-bold leading-8 tracking-[0.1px] text-peacoat;
   }
   .h4 {
-    @apply text-[1.25rem] font-normal leading-[1.87rem] tracking-[0.2px] text-nickel;
+    @apply text-xl font-normal leading-7 tracking-[0.2px] text-nickel;
   }
   .h5 {
-    @apply text-base font-bold leading-[1.5rem] tracking-[0.1px] text-steelBlue;
+    @apply text-base font-bold leading-6 tracking-[0.1px] text-steelBlue;
   }
   .h6 {
-    @apply text-sm font-bold leading-[1.5rem] tracking-[0.2px] text-steelBlue;
+    @apply text-sm font-bold leading-6 tracking-[0.2px] text-steelBlue;
   }
   .a {
-    @apply text-sm font-bold leading-[1.5rem] tracking-[0.2px] text-nickel;
+    @apply text-sm font-bold leading-6 tracking-[0.2px] text-nickel;
   }
   .p {
-    @apply text-sm font-normal leading-[1.25rem] tracking-[0.2px] text-nickel;
+    @apply text-sm font-normal leading-5 tracking-[0.2px] text-nickel;
   }
   .small {
     @apply text-xs font-normal leading-4 tracking-[0.2px] text-nickel;
   }
   .btn {
-    @apply flex flex-col items-center gap-2.5 py-[0.9rem] px-[2.5rem] rounded-[5px];
+    @apply flex flex-col items-center gap-2.5 py-4 px-10 rounded-[5px];
   }
   .btn-text {
-    @apply text-[0.8rem] font-bold leading-[1.37rem] tracking-[0.2px];
+    @apply text-xs font-bold leading-8 tracking-[0.2px];
   }
   .img {
     @apply block object-cover flex-shrink-0;
   }
   .cart-content {
-    @apply inline-flex pt-[3.75rem] pr-[6.65rem] pb-[2.25rem] pl-[2.56rem] flex-col justify-end items-start gap-[1.62rem] bg-cartBackground absolute z-10 bottom-0;
+    @apply inline-flex max-w-full pt-[3.75rem] pr-[6.65rem] pb-[2.25rem] pl-[2.56rem] flex-col justify-end items-start gap-[1.62rem] bg-cartBackground absolute z-10 bottom-0;
   }
   .btn-border {
     @apply border-[1px] border-solid border-white;
@@ -101,7 +101,11 @@ button {
   .footer-input {
     @apply px-3 py-5 rounded-[5px] border-[1px] border-solid border-borderColor;
   }
-  .animation {
-    @apply transition-all ease-linear delay-300;
+  .span-subHeader {
+    @apply display-flex-row gap-2;
+  }
+  .subHeader-text {
+    @apply h6  text-white text-[10px] lg:text-sm;
   }
 }
+ 

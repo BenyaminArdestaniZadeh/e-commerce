@@ -1,9 +1,11 @@
 import { cart } from "../../../data/cart";
 
+
 export default function Cart() {
   return (
     <>
-      <div className="cart-container display-flex-column gap-4">
+    {}
+      <div className="cart-container display-flex-column mx-auto md:justify-center  gap-4 md:flex-row md:flex-wrap">
         {cart.map((item, index) => (
           <div className="relative" key={index}>
             <img src={item.url} alt={item.title} />

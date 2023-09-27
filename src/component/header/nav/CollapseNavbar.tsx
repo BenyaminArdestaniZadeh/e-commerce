@@ -1,5 +1,7 @@
 import { useState } from "react";
-import { menu } from "../../../data/menu";
+import NavbarMobile from "./NavbarMobile";
+import NavbarDesktop from "./NavbarDesktop";
+import Register from "./Register";
 
 export default function CollapseNavbar() {
   const [toggle, setToggle] = useState<boolean>(false);
@@ -9,35 +11,31 @@ export default function CollapseNavbar() {
   };
   return (
     <>
-      <nav className="w-full display-flex-row mb-4">
-        <div className="logo w-1/2 xl:w-auto">
-          <div className="navbar-brand py-[13px] pr-[79px] xl:p-0">
+      <nav className="w-full display-flex-row justify-center gap-3 mb-4 px-3 md:justify-between">
+        <div className="logo sm:w-1/2 md:w-auto">
+          <div className="navbar-brand py-[13px] pr-[79px] ">
             <h3 className="h3 xl:w-auto">Bandage</h3>
           </div>
         </div>
 
-        <div className="icons display-flex-row w-1/2 gap-5 xl:w-auto">
+        <div className="icons display-flex-row w-auto gap-5 md:hidden">
           <img src="./svg/icons/SearchIcon.svg" alt="SearchIcon" />
           <img src="./svg/icons/ShopIcon.svg" alt="ShopIcon" />
-          <button onClick={handleToggleChange}>
+          <button
+            onClick={handleToggleChange}
+            className="inline-flex md:hidden"
+          >
             <img src="./svg/icons/MenuIcon.svg" alt="MenuIcon" />
           </button>
         </div>
+        <div className="hidden md:display-flex-row md:justify-between md:w-[80%]">
+          <NavbarMobile toggle={toggle} />
+          <NavbarDesktop />
 
-        <ul
-          className={
-            toggle === false
-              ? "hidden"
-              : "ul-display gap-8 pb-[5rem] xl:display-flex-row"
-          }
-        >
-          {menu.map((item, index) => (
-            <li key={index}>
-              <a href="#">{item.title}</a>
-            </li>
-          ))}
-        </ul>
+          <Register />
+        </div>
       </nav>
     </>
   );
 }
+// <NavbarMobile toggle={toggle}/>
