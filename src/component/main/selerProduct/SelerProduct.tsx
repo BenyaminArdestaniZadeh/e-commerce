@@ -11,7 +11,7 @@ export default function SelerProduct() {
           </p>
         </div>
         <Items />
-        <Items />
+        
         <button className="btn btn-text mt-[2rem] mb-[5rem] mx-auto btn-border border-spanishSkyBlue text-spanishSkyBlue">
           LOAD MORE PRODUCTS
         </button>

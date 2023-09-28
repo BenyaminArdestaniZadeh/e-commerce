@@ -22,7 +22,6 @@ export default function NewCol({ screenSize }: any) {
           ) : (
             <img src="./img/hero-pc.png" alt="hero" className="img w-full" />
           )}
-          {/* <img src="./img/hero-mobile.png" alt="hero" className="img" /> */}
         </div>
       </div>
     </>

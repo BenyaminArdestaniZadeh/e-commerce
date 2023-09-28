@@ -3,7 +3,7 @@ import { subHeader } from "../../../data/subHeader";
 export default function SubHeader() {
   return (
     <>
-      <nav className="md:w-full md:display-flex-row md:justify-between md:h-16 md:bg-peacoat md:px-6 md:pt-2 md:pb-1 hidden">
+      <nav className="md:w-full md:desktop-display md:h-16 md:bg-peacoat md:px-6 md:pt-2 md:pb-1 hidden">
         <span className="span-subHeader">
           <img src="./svg/subHeader/phone.svg" alt="phone icon" />
           <h6 className="subHeader-text">(225) 555-0118</h6>

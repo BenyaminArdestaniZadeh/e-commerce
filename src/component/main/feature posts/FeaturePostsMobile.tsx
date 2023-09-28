@@ -1,11 +1,19 @@
 import { featurePostsMobile } from "../../../data/featurePost";
+import NewTag from "./NewTag";
 
 export default function FeaturePostsMobile() {
   return (
     <>
       {featurePostsMobile.map((item, index) => (
-        <div className="content-cart display-flex-column md:hidden" key={index}>
-          <img src={item.url} alt={item.title} className="img" />
+        <div
+          className="content-cart relative display-flex-column md:hidden"
+          key={index}
+        >
+          <div className="relative">
+            <img src={item.url} alt={item.title} className="img" />
+            <NewTag />
+          </div>
+
           <div className="feature-posts-frame ">
             <div className="display-flex-row gap-4">
               <small className="small text-spanishSkyBlue">{item.google}</small>

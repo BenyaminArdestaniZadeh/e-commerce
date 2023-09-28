@@ -73,6 +73,10 @@ export const featurePostsDesktop = [
     chartAlt: "chart logo",
     chartText: "Progress",
     btnText: "Learn More",
+    btnSimbol:">",
+    starLogo: "./svg/featurePost/desktop/star.svg",
+    starAlt: "star logo",
+    starText: 4.9,
   },
   {
     url: "./img/featurePost/desktop/desktop-2.png",
@@ -109,5 +113,9 @@ export const featurePostsDesktop = [
     chartAlt: "chart logo",
     chartText: "Progress",
     btnText: "Learn More",
+    btnSimbol:">",
+    starLogo: "./svg/featurePost/desktop/star.svg",
+    starAlt: "star logo",
+    starText: 4.9,
   },
 ];

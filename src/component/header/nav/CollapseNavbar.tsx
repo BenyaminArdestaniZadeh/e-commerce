@@ -28,12 +28,12 @@ export default function CollapseNavbar() {
             <img src="./svg/icons/MenuIcon.svg" alt="MenuIcon" />
           </button>
         </div>
-        <div className="md:display-flex-row md:justify-between md:max-w-[85%] lg:w-[80%]">
-          <NavbarMobile toggle={toggle} />
+        <div className="md:desktop-display md:max-w-[85%] lg:w-[80%]">
           <NavbarDesktop />
           <Register />
         </div>
       </nav>
+      <NavbarMobile toggle={toggle} />
     </>
   );
 }

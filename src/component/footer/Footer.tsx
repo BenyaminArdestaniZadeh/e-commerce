@@ -5,7 +5,7 @@ export default function Footer() {
     <>
       <div className="mobile-container items-start px-3 md:px-7">
         <div className="display-flex-column items-start md:flex-row md:justify-between md:w-full">
-          <div className="lists display-flex-column items-start gap-4 md:flex-row md:max-w-[60%]">
+          <div className="lists display-flex-column items-start gap-6 md:gap-3 md:flex-row md:max-w-[60%]">
             {footer.map((item, index) => (
               <ul className="footer-ul" key={index}>
                 <h5 className="footer-h5">{item.title}</h5>

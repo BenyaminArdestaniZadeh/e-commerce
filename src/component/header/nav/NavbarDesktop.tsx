@@ -2,7 +2,7 @@ import { menu } from "../../../data/menu";
 export default function NavbarDesktop() {
   return (
     <>
-      <ul className="hidden md:display-flex-row md:gap-2 ">
+      <ul className="hidden md:display-flex-row md:gap-4 ">
         {menu.map((item, index) => (
           <li key={index}>
             <a href="#" className="h6 text-nickel">
