@@ -84,7 +84,7 @@ button {
     @apply gap-2.5 p-[1.5rem] pb-[2.1rem];
   }
   .feature-posts-frame {
-    @apply display-flex-column pt-6 pr-6 pl-6 pb-9 gap-2.5 self-stretch;
+    @apply display-flex-column py-6 gap-2.5 items-start px-5 max-w-[25rem] self-stretch;
   }
   .feature-posts-frame-small {
     @apply display-flex-row gap-1;
@@ -106,6 +106,9 @@ button {
   }
   .subHeader-text {
     @apply h6  text-white text-[10px] lg:text-sm;
+  }
+  .feature-frame-desktop{
+    @apply display-flex-row gap-3
   }
 }
  
