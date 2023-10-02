@@ -99,15 +99,23 @@ export default function FeaturePostsDesktop() {
                 <small className="small xl:text-[17px]">{item.timeText}</small>
               </div>
               <div className="feature-frame-desktop gap-1">
-                <img src={item.areaLogo} alt={item.areaAlt} className="xl:w-6 xl:h-6"/>
+                <img
+                  src={item.areaLogo}
+                  alt={item.areaAlt}
+                  className="xl:w-6 xl:h-6"
+                />
                 <small className="small xl:text-[17px]">{item.areaText}</small>
               </div>
               <div className="feature-frame-desktop gap-1">
-                <img src={item.chartLogo} alt={item.chartAlt} className="xl:w-6 xl:h-6"/>
+                <img
+                  src={item.chartLogo}
+                  alt={item.chartAlt}
+                  className="xl:w-6 xl:h-6"
+                />
                 <small className="small xl:text-[17px]">{item.chartText}</small>
               </div>
             </div>
-            <button className=" desktop-btn xl:px-6 xl:py-3">
+            <button className=" desktop-btn border-spanishSkyBlue border-[2px] text-spanishSkyBlue xl:px-6 xl:py-3">
               <h6 className="xl:text-[17px]">{item.btnText}</h6>
               <h6 className="xl:text-[17px]">{item.btnSimbol}</h6>
             </button>

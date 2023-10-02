@@ -5,11 +5,11 @@ export default function SubHeader() {
     <>
       <nav className="md:w-full md:desktop-display md:h-16 md:bg-peacoat md:px-6 md:pt-2 md:pb-1 hidden">
         <span className="span-subHeader">
-          <img src="./svg/subHeader/phone.svg" alt="phone icon" />
+          <img src="../svg/subHeader/phone.svg" alt="phone icon" />
           <h6 className="subHeader-text">(225) 555-0118</h6>
         </span>
         <span className="span-subHeader">
-          <img src="./svg/subHeader/email.svg" alt="email icon" />
+          <img src="../svg/subHeader/email.svg" alt="email icon" />
           <h6 className="subHeader-text">michelle.rivera@example.com</h6>
         </span>
         <h6 className="subHeader-text">
