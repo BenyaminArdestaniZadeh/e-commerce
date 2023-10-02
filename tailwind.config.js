@@ -23,6 +23,7 @@ export default {
       danger: "#E74040",
       red: "#ff0000",
       yellow: "#ffff00",
+      transparent: "transparent"
     },
     extend: {},
   },

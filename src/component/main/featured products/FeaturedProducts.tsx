@@ -19,8 +19,16 @@ export default function FeaturedProducts() {
         </div>
 
         <div className="img-container display-flex-row justify-center min-w-[329px] gap-[7px] mb-[5rem] md:min-w-[408px] md:w-1/2 md:mb-0">
-          <img src="./img/feature/feature-1.png" alt="feature-1" className="img w-[38vw] h-[87.6vw] md:w-[15vw] md:h-[34vw]" />
-          <img src="./img/feature/feature-2.png" alt="feature-2" className="img w-[49vw] h-[87.6vw] md:w-[19vw] md:h-[34vw]" />
+          <img
+            src="./img/feature/feature-1.png"
+            alt="feature-1"
+            className="img w-[38vw] max-w-[38.26vw] h-[87.6vw] max-h-[87.81vw] md:w-[15vw] md:h-[34vw] md:max-w-[15.06vw] md:max-h-[34.58vw]"
+          />
+          <img
+            src="./img/feature/feature-2.png"
+            alt="feature-2"
+            className="img w-[49vw] max-w:[49.37vw] h-[87.6vw] max-h-[87.81vw] md:w-[19vw] md:max-w-[19.44vw] md:h-[34vw] md:max-h-[34.58vw]"
+          />
         </div>
       </div>
     </>

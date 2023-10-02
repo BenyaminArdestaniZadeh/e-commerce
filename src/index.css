@@ -36,7 +36,7 @@ button {
     @apply display-flex-column gap-8 text-3xl font-normal leading-[2.8rem] tracking-[0.2px] text-nickel;
   }
   .h2 {
-    @apply text-[2.5rem] font-bold leading-[3.12rem] tracking-[0.2px] text-peacoat ;
+    @apply text-[2.5rem] font-bold leading-[3.12rem] tracking-[0.2px] text-peacoat;
   }
   .h3 {
     @apply text-2xl font-bold leading-8 tracking-[0.1px] text-peacoat;
@@ -45,7 +45,7 @@ button {
     @apply text-xl font-normal leading-7 tracking-[0.2px] text-nickel;
   }
   .h5 {
-    @apply text-base font-bold leading-6 tracking-[0.1px] text-steelBlue ;
+    @apply text-base font-bold leading-6 tracking-[0.1px] text-steelBlue;
   }
   .h6 {
     @apply text-sm font-bold leading-6 tracking-[0.2px] text-steelBlue;
@@ -54,7 +54,7 @@ button {
     @apply text-sm font-bold leading-6 tracking-[0.2px] text-nickel;
   }
   .p {
-    @apply text-sm font-normal leading-5 tracking-[0.2px] text-nickel ;
+    @apply text-sm font-normal leading-5 tracking-[0.2px] text-nickel;
   }
   .small {
     @apply text-xs font-normal leading-4 tracking-[0.2px] text-nickel;
@@ -90,7 +90,7 @@ button {
     @apply display-flex-row gap-1;
   }
   .footer-ul {
-    @apply display-flex-column items-start md:gap-3 md:px-3 ;
+    @apply display-flex-column items-start md:gap-3 md:px-3;
   }
   .footer-h5 {
     @apply h5 text-peacoat mb-2;
@@ -114,6 +114,9 @@ button {
     @apply flex flex-row justify-center items-center gap-3;
   }
   .desktop-btn {
-    @apply flex flex-row justify-center items-center gap-3 text-xs font-bold leading-8 tracking-[0.2px] border-[1px] border-solid border-spanishSkyBlue rounded-full px-5 py-[10px] text-spanishSkyBlue;
+    @apply flex flex-row justify-center items-center gap-3 text-xs font-bold leading-8 tracking-[0.2px] border-[1px] border-solid border-white rounded-full px-9 py-1 text-white;
   }
+  .loginInput {
+    @apply px-6 py-2 mt-3 outline-none rounded-md text-sm placeholder:text-[12px] placeholder:text-white border-b-[1px] border-solid border-mediumGray bg-transparent text-white lg:px-14
+   }
 }
